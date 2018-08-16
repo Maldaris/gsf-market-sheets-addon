@@ -61,7 +61,6 @@ You can use the underlying request & parser functions in your own scripts.
 __Note: The trailing `/` in the first argument is necessary per Goonmetrics API spec.__
 __Note: The return value of `gsf_make_request` is the same as the parserFactory callback argument.__
 
-
 ### Method
 
 ```javascript
@@ -75,7 +74,7 @@ __Note: The return value of `gsf_make_request` is the same as the parserFactory 
 
 ### XML Path Specification String
 
-Extracting relevant information from XML documents requires walking the DOM Tree. Unlike JSON, XML nodes can contain attributes and nested nodes at the same time. This requires a solution for selecting the appropriate node as well as the intermediary nodes that contain the desired attributes. 
+Extracting relevant information from XML documents requires walking the DOM Tree. Unlike JSON, XML nodes can contain attributes and nested nodes at the same time. This requires a solution for selecting the appropriate node as well as the intermediary nodes that contain the desired attributes.
 
 In this case, the relevant attributes are usually Item IDs(`id`). We can specify the specific item ID we want using the following path spec:
 

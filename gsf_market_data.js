@@ -22,7 +22,7 @@ function parserFactory(spec, callback) {
                         return false;
                     }
                     if(attrs[attrs.indexOf(specAttrs[i]) !== spec[specAttrs[i]]]){
-                        return false
+                        return false;
                     }
                 }
                 return true;
